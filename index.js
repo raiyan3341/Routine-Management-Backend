@@ -9,8 +9,8 @@ const port = process.env.PORT || 3000;
 // --- UPDATED CORS MIDDLEWARE ---
 app.use(cors({
     origin: [
-        "http://localhost:5173", // Local Development (Vite)
-        "https://your-frontend-link.vercel.app" // Tomar Frontend deploy korar por link-ta ekhane boshabe
+        "http://localhost:5173", 
+        "https://routine-management-shk.vercel.app"
     ],
     methods: ["GET", "POST", "PATCH", "DELETE", "OPTIONS"],
     credentials: true
